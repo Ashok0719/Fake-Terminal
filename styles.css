@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  color: #33ff33;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#terminal {
+  padding: 10px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+}
+
+.prompt {
+  margin-right: 5px;
+}
+
+input {
+  background: none;
+  border: none;
+  color: #33ff33;
+  font-family: monospace;
+  font-size: 1em;
+  width: 100%;
+  outline: none;
+}
+
+#output {
+  white-space: pre-wrap;
+  margin-bottom: 5px;
+}
